@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Salesforce Functional Consultant Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+            color: #334155; /* Dark slate gray text */
+        }
+        .gradient-bg {
+            background: linear-gradient(to right, #6366f1, #8b5cf6); /* Purple to Indigo gradient */
+        }
+        .skill-card, .project-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            transition: transform 0.2s ease-in-out;
+            cursor: default; /* Default cursor for cards */
+        }
+        .skill-card:hover, .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .icon-circle {
+            background-color: #e0e7ff; /* Light indigo */
+            color: #4f46e5; /* Indigo */
+            border-radius: 9999px; /* rounded-full */
+            padding: 0.75rem; /* p-3 */
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header/Hero Section -->
+    <header class="gradient-bg text-white py-16 px-4 sm:px-6 lg:px-8 text-center rounded-b-3xl shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">Your Name</h1>
+            <p class="text-xl sm:text-2xl font-light mb-6">Senior Salesforce Functional Consultant</p>
+            <p class="text-md sm:text-lg max-w-2xl mx-auto opacity-90">
+                Driving business success through innovative Salesforce solutions, process optimization, and a deep understanding of user needs.
+            </p>
+            <a href="#contact" class="inline-block mt-8 px-8 py-3 bg-white text-indigo-700 font-semibold rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out transform hover:scale-105">
+                Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <!-- About Me / Skills Section -->
+    <section id="about" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-800">About Me & My Expertise</h2>
+            
+            <div class="mb-12 text-center text-lg max-w-3xl mx-auto leading-relaxed text-gray-700">
+                <p>As a seasoned Salesforce Functional Consultant, I specialize in bridging the gap between business objectives and technical solutions. My approach is centered on optimizing processes, driving user adoption, and ensuring scalable, impactful Salesforce implementations.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill 1: Automation & Process Optimization -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-robot text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Automation & Process Optimization</h3>
+                    <p class="text-gray-600 text-sm">Expert in streamlining workflows and improving efficiency using Salesforce automation tools.</p>
+                </div>
+
+                <!-- Skill 2: Salesforce Platform Knowledge -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fab fa-salesforce text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Salesforce Platform Knowledge</h3>
+                    <p class="text-gray-600 text-sm">Deep understanding of Salesforce Sales Cloud, Service Cloud, Experience Cloud, and more.</p>
+                </div>
+
+                <!-- Skill 3: User Story & Requirements Elicitation -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-users text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">User Story & Requirements Elicitation</h3>
+                    <p class="text-gray-600 text-sm">Skilled in gathering, documenting, and prioritizing business requirements into actionable user stories.</p>
+                </div>
+
+                <!-- Skill 4: Process Mapping & Optimization (BPMN/Flowcharts) -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-project-diagram text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Process Mapping & Optimization</h3>
+                    <p class="text-gray-600 text-sm">Proficient in visual process modeling (BPMN, flowcharts) for clear solution design.</p>
+                </div>
+
+                <!-- Skill 5: Stakeholder Communication & Facilitation -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-comments text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Stakeholder Communication & Facilitation</h3>
+                    <p class="text-gray-600 text-sm">Excellent at collaborating with diverse stakeholders, facilitating workshops, and presenting solutions.</p>
+                </div>
+
+                <!-- Skill 6: Salesforce Data Modeling -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-database text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Salesforce Data Modeling</h3>
+                    <p class="text-gray-600 text-sm">Designing efficient and scalable data structures within the Salesforce platform.</p>
+                </div>
+
+                <!-- Skill 7: Agile/Scrum Delivery -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-cogs text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Agile/Scrum Delivery</h3>
+                    <p class="text-gray-600 text-sm">Experienced in Agile methodologies, including Jira, sprint ceremonies, and backlog grooming.</p>
+                </div>
+
+                <!-- Skill 8: Process Automation (Flows, Rules) -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-magic text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Process Automation (Flows, Rules)</h3>
+                    <p class="text-gray-600 text-sm">Proficient in building complex automation using Salesforce Flows, Workflow Rules, and Process Builder.</p>
+                </div>
+
+                <!-- Skill 9: Reporting & Dashboards -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Reporting & Dashboards</h3>
+                    <p class="text-gray-600 text-sm">Creating insightful reports and dashboards to provide actionable business intelligence.</p>
+                </div>
+
+                <!-- Skill 10: Testing & Quality Assurance (UAT) and Deployment -->
+                <div class="skill-card p-6 flex flex-col items-center text-center">
+                    <div class="icon-circle mb-4">
+                        <i class="fas fa-check-circle text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Testing & Deployment</h3>
+                    <p class="text-gray-600 text-sm">Ensuring solution quality through UAT and managing seamless deployments across environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Projects Section -->
+    <section id="projects" class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-800">My Portfolio Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 Placeholder -->
+                <div class="project-card p-6 flex flex-col">
+                    <img src="https://placehold.co/400x250/E0E7FF/4F46E5?text=Project+Image+1" alt="Project 1 Image" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Sales Cloud Implementation & Optimization</h3>
+                    <p class="text-gray-600 text-sm flex-grow mb-4">Led the full lifecycle implementation of Salesforce Sales Cloud for a growing SaaS company, resulting in a 20% increase in sales efficiency. Implemented complex automation flows for lead assignment and opportunity management.</p>
+                    <a href="#" class="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project 2 Placeholder -->
+                <div class="project-card p-6 flex flex-col">
+                    <img src="https://placehold.co/400x250/E0E7FF/4F46E5?text=Project+Image+2" alt="Project 2 Image" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Service Cloud & CTI Integration</h3>
+                    <p class="text-gray-600 text-sm flex-grow mb-4">Designed and deployed a comprehensive Service Cloud solution integrated with a CTI system, improving customer service response times by 35%. Developed custom lightning components for agent productivity.</p>
+                    <a href="#" class="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project 3 Placeholder -->
+                <div class="project-card p-6 flex flex-col">
+                    <img src="https://placehold.co/400x250/E0E7FF/4F46E5?text=Project+Image+3" alt="Project 3 Image" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Custom App Development & Data Migration</h3>
+                    <p class="text-gray-600 text-sm flex-grow mb-4">Architected and oversaw the development of a custom Salesforce application for inventory management, including data migration from legacy systems. Ensured data integrity and seamless user experience.</p>
+                    <a href="#" class="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project 4 Placeholder -->
+                <div class="project-card p-6 flex flex-col">
+                    <img src="https://placehold.co/400x250/E0E7FF/4F46E5?text=Project+Image+4" alt="Project 4 Image" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Experience Cloud Portal for Partners</h3>
+                    <p class="text-gray-600 text-sm flex-grow mb-4">Built and customized an Experience Cloud (Community Cloud) portal to enhance collaboration and information sharing with key partners, leading to improved partner engagement.</p>
+                    <a href="#" class="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project 5 Placeholder -->
+                <div class="project-card p-6 flex flex-col">
+                    <img src="https://placehold.co/400x250/E0E7FF/4F46E5?text=Project+Image+5" alt="Project 5 Image" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Salesforce CPQ Implementation</h3>
+                    <p class="text-gray-600 text-sm flex-grow mb-4">Successfully implemented Salesforce CPQ (Configure, Price, Quote) to automate the quoting process, reducing manual errors and accelerating sales cycles significantly.</p>
+                    <a href="#" class="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Project 6 Placeholder -->
+                <div class="project-card p-6 flex flex-col">
+                    <img src="https://placehold.co/400x250/E0E7FF/4F46E5?text=Project+Image+6" alt="Project 6 Image" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Marketing Cloud Journey Builder Development</h3>
+                    <p class="text-gray-600 text-sm flex-grow mb-4">Developed and optimized customer journeys in Salesforce Marketing Cloud, creating personalized and automated communication strategies that boosted customer engagement and conversion rates.</p>
+                    <a href="#" class="inline-block px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-gray-800">Get in Touch</h2>
+            <p class="text-lg text-gray-700 mb-8">
+                I'm always open to discussing new projects, interesting opportunities, or how I can help your organization succeed with Salesforce.
+            </p>
+            <form class="space-y-6 bg-white p-8 rounded-xl shadow-md">
+                <div>
+                    <label for="name" class="block text-left text-sm font-medium text-gray-700 mb-1">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email" class="block text-left text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="your.email@example.com">
+                </div>
+                <div>
+                    <label for="message" class="block text-left text-sm font-medium text-gray-700 mb-1">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Tell me about your project or inquiry..."></textarea>
+                </div>
+                <button type="submit" class="w-full sm:w-auto px-8 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:scale-105">
+                    Send Message
+                </button>
+            </form>
+            <div class="mt-8 text-center text-gray-700">
+                <p>Or connect with me on:</p>
+                <div class="flex justify-center space-x-6 mt-4">
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 transition duration-300">
+                        <i class="fab fa-linkedin text-3xl"></i>
+                    </a>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 transition duration-300">
+                        <i class="fab fa-twitter text-3xl"></i>
+                    </a>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 transition duration-300">
+                        <i class="fab fa-github text-3xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4 sm:px-6 lg:px-8 text-center rounded-t-3xl shadow-lg">
+        <div class="max-w-6xl mx-auto">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p class="mt-2 text-sm opacity-80">Built with <span class="text-red-500">&hearts;</span> and Salesforce expertise.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
